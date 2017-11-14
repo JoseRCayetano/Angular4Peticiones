@@ -1,0 +1,11 @@
+{
+    "/api/v2/*": {
+        "target":  {
+            "host": "pokeapi.co",
+            "protocol": "http",
+            "port": 80
+        },
+        "secure": false,
+        "changeOrigin": true
+        }
+    }
